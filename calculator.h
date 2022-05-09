@@ -1,6 +1,5 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
-
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
