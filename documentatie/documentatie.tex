@@ -1,0 +1,42 @@
+%!TEX TS-program = xelatex
+%& -shell-escape
+%%
+%% Documentație pentru atestat
+%% de Andrei Dobrete
+%%
+
+\documentclass[
+ 12pt,                       % Font size
+ a4paper                     % Paper type
+]{article}
+
+% Packages
+\usepackage{my_style}        % My custom stylings
+\usepackage{graphicx}        % Image support
+%\usepackage{minted}         % Code blocks with syntax highlighting
+\usepackage{listings}        % Code blocks with syntax highlighting
+\usepackage{metalogo}        % TeX logos
+\usepackage{hyperref}        % Hyperlink support, keep last in package list!
+
+% Image path
+\graphicspath{ {./img/} }
+
+% New page after every section
+%\newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
+\newcommand{\sectionbreak}{\clearpage}
+
+\begin{document}
+ \include{titlepage.tex}     % Titlepage
+ \tableofcontents
+ \clearpage
+
+
+ % Beginning of text
+ \input{despre-proiect.tex}
+ \input{limbajul-cpp.tex}
+ \input{libraria-qt.tex}
+ \input{instructiuni-pt-compilare.tex}
+ \input{codul-sursa.tex}
+ \input{programe-utilizate.tex}
+ \input{bibliografie.tex}
+\end{document}
