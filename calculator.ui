@@ -27,466 +27,6 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="5" column="1">
-     <widget class="QPushButton" name="Button7">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>7</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="4">
-     <widget class="QPushButton" name="ButtonPow">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #00cc00;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>^</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="2">
-     <widget class="QPushButton" name="Button8">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>8</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="4">
-     <widget class="QPushButton" name="ButtonInverse">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #800080;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>1/x</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="1">
-     <widget class="QPushButton" name="Button0">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>0</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="1">
-     <widget class="QPushButton" name="Button1">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>1</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="5">
-     <widget class="QPushButton" name="ButtonMinus">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #e69500;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>-</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="2">
-     <widget class="QPushButton" name="Button2">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>2</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="2">
-     <widget class="QPushButton" name="Button5">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>5</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1" colspan="5">
-     <widget class="QLineEdit" name="Display">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>50</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>18</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit
-{
-	background-color: gray;
-	border: 1px solid gray;
-	color: #ffffff;
-} </string>
-      </property>
-      <property name="text">
-       <string>0.0</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-      </property>
-     </widget>
-    </item>
     <item row="3" column="5">
      <widget class="QPushButton" name="ButtonPercent">
       <property name="sizePolicy">
@@ -509,7 +49,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -531,335 +71,6 @@ QPushButton:pressed
       </property>
       <property name="text">
        <string>%</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="5">
-     <widget class="QPushButton" name="ButtonDivide">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #ffaf1a;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>/</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="3">
-     <widget class="QPushButton" name="ButtonChSign">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 128, 0, 255), stop:1 rgba(255, 165, 0, 255));
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>+/-</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="3">
-     <widget class="QPushButton" name="Button9">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-	color: #FFFFFF;
-	background-color: #COCOCO;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-	color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>9</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="5">
-     <widget class="QPushButton" name="ButtonAllClear">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #FF0000;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>AC</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2">
-     <widget class="QPushButton" name="ButtonMemPlus">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #00CED1;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>M+</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="4">
-     <widget class="QPushButton" name="ButtonMultiply">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>12</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #00b300;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>*</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="5">
-     <widget class="QPushButton" name="ButtonSqrt">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>40</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>999999</width>
-        <height>999999</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Iosevka Term</family>
-        <pointsize>11</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton
-{
-    color: #FFFFFF;
-	background-color: #ffb833;
-	border: 1px solid gray;
-	padding: 5px;
-}
-QPushButton:pressed
-{
-    color: #FFFFFF;
-	background-color: #A9A9A9;
-	border: 1px solid gray;
-	padding: 5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>√</string>
       </property>
      </widget>
     </item>
@@ -885,7 +96,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -910,8 +121,8 @@ QPushButton:pressed
       </property>
      </widget>
     </item>
-    <item row="7" column="4">
-     <widget class="QPushButton" name="ButtonPlus">
+    <item row="2" column="5">
+     <widget class="QPushButton" name="ButtonAllClear">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
         <horstretch>0</horstretch>
@@ -932,7 +143,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -940,7 +151,7 @@ QPushButton:pressed
        <string notr="true">QPushButton
 {
     color: #FFFFFF;
-	background-color: #008000;
+	background-color: #FF0000;
 	border: 1px solid gray;
 	padding: 5px;
 }
@@ -953,12 +164,12 @@ QPushButton:pressed
 }</string>
       </property>
       <property name="text">
-       <string>+</string>
+       <string>AC</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="ButtonMemResult">
+    <item row="6" column="5">
+     <widget class="QPushButton" name="ButtonDivide">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
         <horstretch>0</horstretch>
@@ -979,7 +190,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -987,7 +198,7 @@ QPushButton:pressed
        <string notr="true">QPushButton
 {
     color: #FFFFFF;
-	background-color: #008080;
+	background-color: #ffaf1a;
 	border: 1px solid gray;
 	padding: 5px;
 }
@@ -1000,12 +211,12 @@ QPushButton:pressed
 }</string>
       </property>
       <property name="text">
-       <string>MR</string>
+       <string>/</string>
       </property>
      </widget>
     </item>
-    <item row="6" column="3">
-     <widget class="QPushButton" name="Button6">
+    <item row="6" column="4">
+     <widget class="QPushButton" name="ButtonMultiply">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
         <horstretch>0</horstretch>
@@ -1026,28 +237,75 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton
 {
-	color: #FFFFFF;
-	background-color: #COCOCO;
+    color: #FFFFFF;
+	background-color: #00b300;
 	border: 1px solid gray;
 	padding: 5px;
 }
 QPushButton:pressed
 {
-	color: #FFFFFF;
+    color: #FFFFFF;
 	background-color: #A9A9A9;
 	border: 1px solid gray;
 	padding: 5px;
 }</string>
       </property>
       <property name="text">
-       <string>6</string>
+       <string>*</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="ButtonMemPlus">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #00CED1;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>M+</string>
       </property>
      </widget>
     </item>
@@ -1073,7 +331,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -1095,6 +353,382 @@ QPushButton:pressed
       </property>
       <property name="text">
        <string>3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="Button8">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QPushButton" name="Button5">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="Button7">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QPushButton" name="ButtonChSign">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 128, 0, 255), stop:1 rgba(255, 165, 0, 255));
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>+/-</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QPushButton" name="ButtonClear">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #cccc00;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>C</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="Button0">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QPushButton" name="ButtonInverse">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #800080;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>1/x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QPushButton" name="ButtonPow">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #00cc00;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>^</string>
       </property>
      </widget>
     </item>
@@ -1120,7 +754,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -1167,7 +801,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -1189,6 +823,53 @@ QPushButton:pressed
       </property>
       <property name="text">
        <string>M-</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QPushButton" name="Button6">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>6</string>
       </property>
      </widget>
     </item>
@@ -1214,7 +895,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -1236,6 +917,241 @@ QPushButton:pressed
       </property>
       <property name="text">
        <string>.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QPushButton" name="Button2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="Button9">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="QPushButton" name="ButtonMinus">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #e69500;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QPushButton" name="ButtonSqrt">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #ffb833;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>√</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="4">
+     <widget class="QPushButton" name="ButtonPlus">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color: #FFFFFF;
+	background-color: #008000;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+    color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>+</string>
       </property>
      </widget>
     </item>
@@ -1261,7 +1177,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -1285,8 +1201,45 @@ QPushButton:pressed
       </property>
      </widget>
     </item>
-    <item row="2" column="4">
-     <widget class="QPushButton" name="ButtonClear">
+    <item row="0" column="1" colspan="5">
+     <widget class="QLineEdit" name="Display">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>18</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	background-color: gray;
+	border: 1px solid gray;
+	color: #ffffff;
+} </string>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="ButtonMemResult">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
         <horstretch>0</horstretch>
@@ -1307,7 +1260,7 @@ QPushButton:pressed
       </property>
       <property name="font">
        <font>
-        <family>Iosevka Term</family>
+        <family>Iosevka</family>
         <pointsize>12</pointsize>
        </font>
       </property>
@@ -1315,7 +1268,7 @@ QPushButton:pressed
        <string notr="true">QPushButton
 {
     color: #FFFFFF;
-	background-color: #cccc00;
+	background-color: #008080;
 	border: 1px solid gray;
 	padding: 5px;
 }
@@ -1328,7 +1281,54 @@ QPushButton:pressed
 }</string>
       </property>
       <property name="text">
-       <string>C</string>
+       <string>MR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="Button1">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>999999</width>
+        <height>999999</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Iosevka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color: #FFFFFF;
+	background-color: #COCOCO;
+	border: 1px solid gray;
+	padding: 5px;
+}
+QPushButton:pressed
+{
+	color: #FFFFFF;
+	background-color: #A9A9A9;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>1</string>
       </property>
      </widget>
     </item>
