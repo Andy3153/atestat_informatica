@@ -45,7 +45,9 @@ Calculator::Calculator(QWidget *parent):
     // pentru alte butoane
     connect(ui->ButtonEquals, SIGNAL(released()), this, SLOT(EqualButtonPressed()));
     connect(ui->ButtonChSign, SIGNAL(released()), this, SLOT(ChSignPressed()));
+    connect(ui->ButtonAllClear, SIGNAL(released()), this, SLOT(AllClearButtonPressed()));
     connect(ui->ButtonClear, SIGNAL(released()), this, SLOT(ClearButtonPressed()));
+    connect(ui->ButtonPeriod, SIGNAL(released()), this, SLOT(PeriodButtonPressed()));
 
     // pentru butoanele de memorie
     connect(ui->ButtonMemResult, SIGNAL(released()), this, SLOT(MemResultButtonPressed()));
@@ -135,7 +137,7 @@ void Calculator::ChSignPressed()
 }
 
 // Actiunea pentru apasarea de clear
-void Calculator::ClearButtonPressed()
+void Calculator::AllClearButtonPressed()
 {
     ui->Display->setText(QString::number(0.0));
 }
@@ -206,4 +208,22 @@ void Calculator::PercButtonPressed()
     double dblDisplayVal = displayVal.toDouble();
     double dblDisplayValPerc = dblDisplayVal / 100;
     ui->Display->setText(QString::number(dblDisplayValPerc));
+}
+
+// Actiune pentru apasarea virgulei
+void Calculator::PeriodButtonPressed()
+{
+    QString displayVal = ui->Display->text();
+    displayVal = displayVal + ".";
+    ui->Display->setText(displayVal);
+}
+
+// Actiune pentru apasarea backspace
+void Calculator::ClearButtonPressed()
+{
+    QString displayVal = ui->Display->text();
+    if(! displayVal.isEmpty())
+        displayVal.chop(1);
+    else displayVal = "0";
+    ui->Display->setText(displayVal);
 }

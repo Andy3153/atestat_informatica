@@ -25,6 +25,7 @@ private slots:
     void MathButtonPressed();
     void EqualButtonPressed();
     void ChSignPressed();
+    void AllClearButtonPressed();
     void ClearButtonPressed();
     void MemButtonPressed();
     void MemResultButtonPressed();
@@ -32,5 +33,6 @@ private slots:
     void SqrtButtonPressed();
     void InvButtonPressed();
     void PercButtonPressed();
+    void PeriodButtonPressed();
 };
 #endif // CALCULATOR_H
