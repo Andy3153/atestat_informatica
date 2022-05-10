@@ -13,9 +13,10 @@
 % Packages
 \usepackage{my_style}        % My custom stylings
 \usepackage{graphicx}        % Image support
-%\usepackage{minted}         % Code blocks with syntax highlighting
-\usepackage{listings}        % Code blocks with syntax highlighting
+\usepackage{minted}          % Code blocks with syntax highlighting
+%\usepackage{listings}        % Code blocks with syntax highlighting
 \usepackage{metalogo}        % TeX logos
+\usepackage{xcolor}          % New colors
 \usepackage{hyperref}        % Hyperlink support, keep last in package list!
 
 % Image path
@@ -24,6 +25,25 @@
 % New page after every section
 %\newcommand{\sectionbreak}{\ifnum\value{section}>0 \clearpage\fi}
 \newcommand{\sectionbreak}{\clearpage}
+
+% Colors
+\definecolor{LightGray}{gray}{0.9}
+
+% Minted customizations
+%\renewcommand{\inputminted}[3][2]
+%{
+% \inputminted[
+%  frame=lines,
+%  framesep=2mm,
+%  baselinestretch=1.2,
+%  bgcolor=LightGray,
+%  fontsize=\footnotesize,
+%  linenos
+%  ]{#2}{#3}
+%}
+
+%\renewcommand{\inputminted}[3][2]{\inputminted{#2}{#3}}
+
 
 \begin{document}
  \include{titlepage.tex}     % Titlepage
@@ -39,4 +59,5 @@
  \input{codul-sursa.tex}
  \input{programe-utilizate.tex}
  \input{bibliografie.tex}
+
 \end{document}

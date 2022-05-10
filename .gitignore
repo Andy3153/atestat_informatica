@@ -20,15 +20,14 @@
 # IDEA IDEs
 **/.idea
 
-# a folder I have in the original git repo
-/etc/sdfsdf
-
 # files created by LaTeX at compile time
 **/*.aux
 **/*.log
 **/*.out
 **/*.synctex.gz
 **/*.toc
+**/*.pyg
+documentatie/_minted-documentatie/
 
 # files created by latexmk
 **/*.latexrun.db

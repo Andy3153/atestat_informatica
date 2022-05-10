@@ -1,16 +1,56 @@
 \section{Codul sursă}
 \subsection{\texttt{main.cpp}}
+{
+\hbadness=10000
 Acesta este fișierul care conține funcția principală a programului. Nu sunt multe modificări aici.
-\lstinputlisting[language=C]{../main.cpp}
+\inputminted[
+ tabsize=2,
+ breaklines,
+ frame=lines,
+ framesep=2mm,
+ baselinestretch=1.2,
+ bgcolor=LightGray,
+ fontsize=\footnotesize,
+ linenos
+]{c}{../main.cpp}
+
 
 \subsection{\texttt{calculator.h}}
 Acesta este fișierul header, în care sunt declarate clasele, precum și funcțiile care vor urma să fie declarate.
-\lstinputlisting[language=C]{../calculator.h}
+\inputminted[
+ tabsize=2,
+ breaklines,
+ frame=lines,
+ framesep=2mm,
+ baselinestretch=1.2,
+ bgcolor=LightGray,
+ fontsize=\footnotesize,
+ linenos
+]{c}{../calculator.h}
 
 \subsection{\texttt{calculator.cpp}}
 Acesta este fișierul cel mai important din proiect. Este fișierul care declară funcțiile necesare, creează variabilele și spune programului ce funcții trebuie folosite la apăsarea căror butoane.
-\lstinputlisting[language=C]{../calculator.cpp}
+\inputminted[
+ tabsize=2,
+ breaklines,
+ frame=lines,
+ framesep=2mm,
+ baselinestretch=1.2,
+ bgcolor=LightGray,
+ fontsize=\footnotesize,
+ linenos
+]{c}{../calculator.cpp}
 
 \subsection{\texttt{calculator.ui}}
 Acesta este fișierul care conține layout-ul grafic al programului (ex.: unde se află butoanele, felul în care arată etc.). Acesta a fost auto-generat de către componenta de `Design` din interiorul IDE-ului Qt Creator (secțiunea \texttt{\ref{qtcreator}}). Este, de asemenea, și cel mai lung fișier din întregul proiect.
-\lstinputlisting[language=C]{../calculator.ui}]
+%\inputminted[
+% tabsize=2,
+% breaklines,
+% frame=lines,
+% framesep=2mm,
+% baselinestretch=1.2,
+% bgcolor=LightGray,
+% fontsize=\footnotesize,
+% linenos
+%]{c}{../calculator.ui}
+}
