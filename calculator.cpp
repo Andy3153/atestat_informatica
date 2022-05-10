@@ -1,15 +1,16 @@
 #include "calculator.h"
 #include "./ui_calculator.h"
 
-double calcVal = 0.0;
-double mrVal = 0.0;
-bool divTrigger = false;
-bool multTrigger = false;
-bool addTrigger = false;
-bool subTrigger = false;
-bool mrTrigger = false;
-bool mpTrigger = false;
-bool mmTrigger = false;
+double calcVal    = 0.0,
+       mrVal      = 0.0;
+bool divTrigger   = false,
+     multTrigger  = false,
+     addTrigger   = false,
+     subTrigger   = false,
+     powTrigger   = false,
+     mrTrigger    = false,
+     mpTrigger    = false,
+     mmTrigger    = false;
 
 Calculator::Calculator(QWidget *parent):
     QMainWindow(parent),
@@ -20,6 +21,8 @@ Calculator::Calculator(QWidget *parent):
     ui->Display->setText(QString::number(calcVal));
     QPushButton *numButtons[10];
 
+    // Ce functie se executa atunci cand se apasa ce buton
+    // pentru cifre
     for(int i=0; i<10; ++i)
     {
         QString butName = "Button" + QString::number(i);
@@ -27,15 +30,24 @@ Calculator::Calculator(QWidget *parent):
         connect(numButtons[i], SIGNAL(released()), this, SLOT(NumPressed()));
     }
 
+    // pentru operatiile de baza
     connect(ui->ButtonPlus, SIGNAL(released()), this, SLOT(MathButtonPressed()));
     connect(ui->ButtonMinus, SIGNAL(released()), this, SLOT(MathButtonPressed()));
     connect(ui->ButtonMultiply, SIGNAL(released()), this, SLOT(MathButtonPressed()));
     connect(ui->ButtonDivide, SIGNAL(released()), this, SLOT(MathButtonPressed()));
 
+    // pentru operatiile in plus
+    connect(ui->ButtonPow, SIGNAL(released()), this, SLOT(MathButtonPressed()));
+    connect(ui->ButtonSqrt, SIGNAL(released()), this, SLOT(SqrtButtonPressed()));
+    connect(ui->ButtonInverse, SIGNAL(released()), this, SLOT(InvButtonPressed()));
+    connect(ui->ButtonPercent, SIGNAL(released()), this, SLOT(PercButtonPressed()));
+
+    // pentru alte butoane
     connect(ui->ButtonEquals, SIGNAL(released()), this, SLOT(EqualButtonPressed()));
     connect(ui->ButtonChSign, SIGNAL(released()), this, SLOT(ChSignPressed()));
     connect(ui->ButtonClear, SIGNAL(released()), this, SLOT(ClearButtonPressed()));
-//    connect(ui->ButtonBksp, SIGNAL(released()), this, SLOT(ButtonBkspPressed()));
+
+    // pentru butoanele de memorie
     connect(ui->ButtonMemResult, SIGNAL(released()), this, SLOT(MemResultButtonPressed()));
     connect(ui->ButtonMemClear, SIGNAL(released()), this, SLOT(MemClearButtonPressed()));
     connect(ui->ButtonMemPlus, SIGNAL(released()), this, SLOT(MemButtonPressed()));
@@ -64,14 +76,15 @@ void Calculator::NumPressed()
     }
 }
 
-// Actiunea pentru apasarea semnelor
+// Actiunea pentru detectarea apasarii semnelor
 void Calculator::MathButtonPressed()
 {
     //reseteaza valorile semnelor
-    divTrigger = false;
+    addTrigger  = false;
+    subTrigger  = false;
     multTrigger = false;
-    addTrigger = false;
-    subTrigger = false;
+    divTrigger  = false;
+    powTrigger  = false;
 
     QString displayVal = ui->Display->text();
     calcVal = displayVal.toDouble();
@@ -79,14 +92,16 @@ void Calculator::MathButtonPressed()
     QPushButton *button = (QPushButton *)sender();
     QString butVal = button->text();
 
-    if(QString::compare(butVal, "/", Qt::CaseInsensitive) == 0)
-        divTrigger = true;
-    else if(QString::compare(butVal, "*", Qt::CaseInsensitive) == 0)
-        multTrigger = true;
-    else if(QString::compare(butVal, "+", Qt::CaseInsensitive) == 0)
+    if(QString::compare(butVal, "+", Qt::CaseInsensitive) == 0)
         addTrigger = true;
     else if(QString::compare(butVal, "-", Qt::CaseInsensitive) == 0)
         subTrigger = true;
+    else if(QString::compare(butVal, "*", Qt::CaseInsensitive) == 0)
+        multTrigger = true;
+    else if(QString::compare(butVal, "/", Qt::CaseInsensitive) == 0)
+        divTrigger = true;
+    else if(QString::compare(butVal, "^", Qt::CaseInsensitive) == 0)
+        powTrigger = true;
 
     ui->Display->setText(""); //sterge ecran dupa apasarea semnului
 }
@@ -99,12 +114,13 @@ void Calculator::EqualButtonPressed()
     double dblDisplayVal = displayVal.toDouble();
 
     //calcularea solutiei
-    if(addTrigger || subTrigger || multTrigger || divTrigger)
+    if(addTrigger || subTrigger || multTrigger || divTrigger || powTrigger)
     {
         if(addTrigger) solution = calcVal + dblDisplayVal;
-        else if(subTrigger) solution = calcVal - dblDisplayVal;
+        else if(subTrigger)  solution = calcVal - dblDisplayVal;
         else if(multTrigger) solution = calcVal * dblDisplayVal;
-        else if(divTrigger) solution = calcVal / dblDisplayVal;
+        else if(divTrigger)  solution = calcVal / dblDisplayVal;
+        else if(powTrigger)  solution = qPow(calcVal, dblDisplayVal);
     }
     ui->Display->setText(QString::number(solution)); //afisare rezultat
 }
@@ -159,7 +175,35 @@ void Calculator::MemResultButtonPressed()
     mrVal = 0.0;
 }
 
+// Actiunea pentru apasarea clear-ului de memorie
 void Calculator::MemClearButtonPressed()
 {
     mrVal = 0.0;
+}
+
+// Actiune pentru apasarea radicalului
+void Calculator::SqrtButtonPressed()
+{
+    QString displayVal = ui->Display->text();
+    double dblDisplayVal = displayVal.toDouble();
+    double dblDisplayValSqrt = qSqrt(dblDisplayVal);
+    ui->Display->setText(QString::number(dblDisplayValSqrt));
+}
+
+// Actiune pentru apasarea inversului
+void Calculator::InvButtonPressed()
+{
+    QString displayVal = ui->Display->text();
+    double dblDisplayVal = displayVal.toDouble();
+    double dblDisplayValInv = 1 / dblDisplayVal;
+    ui->Display->setText(QString::number(dblDisplayValInv));
+}
+
+// Actiune pentru apasarea procentului
+void Calculator::PercButtonPressed()
+{
+    QString displayVal = ui->Display->text();
+    double dblDisplayVal = displayVal.toDouble();
+    double dblDisplayValPerc = dblDisplayVal / 100;
+    ui->Display->setText(QString::number(dblDisplayValPerc));
 }

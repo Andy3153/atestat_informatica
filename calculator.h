@@ -29,5 +29,8 @@ private slots:
     void MemButtonPressed();
     void MemResultButtonPressed();
     void MemClearButtonPressed();
+    void SqrtButtonPressed();
+    void InvButtonPressed();
+    void PercButtonPressed();
 };
 #endif // CALCULATOR_H
